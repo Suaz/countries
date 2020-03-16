@@ -1,0 +1,85 @@
+body {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.searchBox {
+  display: flex;
+  max-width: 768px;
+  flex-direction: column;
+  margin: 1.5em auto 3em;
+
+  label {
+    color: #333333;
+    margin-bottom: 8px;
+    font-weight: bolder;
+  }
+
+  input {
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+    color: #333333;
+  }
+}
+
+.tag {
+  font-size: 12px;
+  background-color: rgba(255, 4, 0, 0.2);
+  border-radius: 4px;
+  padding: 2px 8px;
+  margin-left: 2px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+.countries {
+  margin: 1.5em auto;
+  max-width: 768px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+//@media only screen and (max-width: 600px) {
+//  .countries {
+//    column-count: 1;
+//    margin: 1.5em auto;
+//    max-width: 768px;
+//    column-gap: 1.5em;
+//  }
+//}
+//
+//@media only screen and (min-width: 600px) {
+//  .countries {
+//    column-count: 2;
+//    margin: 1.5em auto;
+//    max-width: 768px;
+//    column-gap: 1.5em;
+//  }
+//}
+//
+//@media only screen and (min-width: 768px) {
+//  .countries {
+//    column-count: 3;
+//    margin: 1.5em auto;
+//    max-width: 768px;
+//    column-gap: 1.5em;
+//  }
+//}
+//
+//@media only screen and (min-width: 992px) {
+//  .countries {
+//    column-count: 4;
+//    margin: 1.5em auto;
+//    max-width: 768px;
+//    column-gap: 1.5em;
+//  }
+//}
+//
+//@media only screen and (min-width: 1200px) {
+//  .countries {
+//    column-count: 4;
+//    margin: 1.5em auto;
+//    max-width: 768px;
+//    column-gap: 1.5em;
+//  }
+//}
